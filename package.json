@@ -1,0 +1,37 @@
+{
+  "name": "eslint-import-resolver-node-extended",
+  "version": "1.0.0",
+  "description": "Node import resolver for eslint-plugin-import.",
+  "main": "index.js",
+  "files": ["index.js"],
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fuzeman/eslint-import-resolver-node-extended"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "esnext",
+    "modules",
+    "eslint-plugin-import"
+  ],
+  "author": "Dean Gardiner (me@dgardiner.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuzeman/eslint-import-resolver-node-extended/issues"
+  },
+  "homepage": "https://github.com/fuzeman/eslint-import-resolver-node-extended",
+  "dependencies": {
+    "debug": "^2.6.8",
+    "resolve": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "eslint": "2.x - 4.x",
+    "mocha": "^2.3.4",
+    "nyc": "^7.0.0"
+  }
+}
